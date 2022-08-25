@@ -1,0 +1,90 @@
+h1, h2, p{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto; 
+}
+.header-p{
+    margin-top: 2%;
+    color: #ffff;
+    text-shadow: 1px 1px 2px black;
+}
+h1{
+    font-size: 300%;
+    margin-top: 70px;
+    color: #ffff;
+    text-shadow: 1px 1px 2px black;
+}
+h2{
+    font-size: 200%;
+    padding-top: 0; 
+    color: #ffff;
+    text-shadow: 1px 1px 2px black;
+}
+h3{
+    font-size: 32px;
+    color: #ffff;
+    text-shadow: 1px 2px 2px black;
+    padding-top: 40px;
+}
+.button{
+    text-decoration: none;
+    color: black;
+    padding: 1% 2% 1% 2%;
+    background-color: white;
+    border-radius: 10px;
+    border-bottom: 5px solid #00acfe;
+}
+main h2, main p, footer h2, footer p{
+    padding-top:  2%;
+    margin-top: 4%;
+}
+.p_instagram, footer p{
+    margin-top: -1%;
+    color: #ffff;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    font-size: 100%;
+}
+.button-instagram{
+    margin-top: 0;
+}
+body{
+    background-image: url(image/fon2.jpg);
+    background-repeat: no-repeat;
+    background-color: #01213a;
+}
+header p:last-child{
+    margin-top: 5%;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.main-content .main-text, .main-img{
+    width:450px;
+    height: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: 0 auto;
+    border-bottom: 3px solid orange;
+}
+.main-content .main-text p{
+    text-align: justify;
+    margin: 0;
+    width: 100%;
+    font-size: 20px;
+    color: #ffff;
+    text-shadow: 1px 1px 2px black;
+}
+.main-content .main-text p a{
+    float: right;
+}
+.main-content .main-img{
+    width: 500px;
+    height: 350px;
+    background-image: url(image/2.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

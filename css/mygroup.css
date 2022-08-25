@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+    font-size: 350%;
+    color: #ffff;
+    text-shadow: 1px 1px 2px black; 
+}
+h3{
+    font-size: 250%;
+    color: #ffff;
+    text-shadow: 1px 1px 2px black; 
+}
+body{
+    background-image: url(image/fon2.jpg);
+    background-repeat: no-repeat;
+    background-color: #01213a;
+}
+.moveLeft{
+    position: absolute;
+    top: 45px;
+    left: 20px;
+}
+.moveLeft .image{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    color: orange;
+}
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.main-content div{
+    margin: 0 auto;
+    width: 400px;
+    height: 320px;
+}
+.text{
+    border-bottom: 5px solid orange;
+}
+.text p{
+    width: 80%;
+    text-align: left;
+    margin-left:  10%;
+    color: #ffff;
+    text-shadow: 1px 1px 2px black; 
+    font-size: 120%;
+}
+.text p span{
+    font-size: 170%;
+    color: orange;
+}
+#img{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 450px;
+    border-radius: 10px;
+    background-color: tomato;
+}
+.img-ar{
+    background-image: url(image/foto/ar.jpg);
+}
+.img-ren{
+    background-image: url(image/foto/ren.jpg);
+}
+.img-fel{
+    background-image: url(image/foto/fel.jpg);
+}
+.img-der{
+    background-image: url(image/foto/der.jpg);
+}
+.img-ej{
+    background-image: url(image/foto/ej.jpg);
+}
+.img-ej_n{
+    background-image: url(image/foto/ej_n.jpg);
+}
+.img-alin{
+    background-image: url(image/foto/alin.jpg);
+}
